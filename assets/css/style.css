@@ -139,13 +139,14 @@ body .row .main main {
   top: 0;
   bottom: 0;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-wrap: wrap;
   overflow: hidden;
 }
 body .row .main main .text {
   width: 55%;
+  padding-left: 10px;
   color: #fff;
   z-index: 2;
 }
