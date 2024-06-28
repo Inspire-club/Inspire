@@ -269,10 +269,10 @@ body section .skills .card {
   transition: all 1s ease 0s;
 }
 body section .skills .card .icon {
-  padding: 15px;
+  padding: 10px;
 }
 body section .skills .card .card-body .card-text {
-  font-size: 23px;
+  font-size: 19px;
   font-weight: 600;
   color: #fff;
 }
