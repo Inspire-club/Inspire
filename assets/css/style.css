@@ -257,6 +257,7 @@ body section .skills {
 }
 body section .skills .card {
   width: fit-content;
+  min-width: 200px;
   height: -moz-fit-content;
   height: fit-content;
   padding: 10px;
