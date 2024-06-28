@@ -256,7 +256,7 @@ body section .skills {
   flex-wrap: wrap;
 }
 body section .skills .card {
-  width: 15%;
+  width: fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 10px;
