@@ -452,6 +452,7 @@ body section .project .tab-content .tab-pane .row .col-xl-5 {
   border: 4px solid t#b4aec9;
   border-radius: 15px;
   width: 28% !important;
+  min-width: 200px;
   background-color: #222222;
   text-align: center;
   overflow: hidden;
