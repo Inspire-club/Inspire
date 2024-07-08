@@ -157,6 +157,23 @@
         </div>
         <!-- //main// -->
     </div>
+    <script src="https://cdn.jotfor.ms/s/umd/latest/for-cardform-feedback-embed.js"></script>
+    <script>
+      var componentID = new JF_FeedbackEmbedButton({
+        
+    buttonIcon: "default",
+    buttonFontColor: "#FFFFFF",
+    buttonBackgroundColor: "#007FEF",
+    formId: 241893625501457
+    ,
+        buttonText: "Apply Now",
+        buttonSide: "Bottom",
+        buttonAlign: "Right",
+        base: "https://form.jotform.com/",
+      }).componentID;
+    </script>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='" + componentID + "_iframe']", "https://form.jotform.com/")</script>
 
 
 

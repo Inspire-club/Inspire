@@ -126,20 +126,23 @@
                         <a href="https://www.linkedin.com/in/inspire-club/" target="_blank">linkedin.com/in/inspire-club</a>
                     </div>
                 </div>
-                <iframe
-                  id="JotFormIFrame-241893625501457"
-                  title="Inspire Club Membership Application"
-                  onload="window.parent.scrollTo(0,0)"
-                  allowtransparency="true"
-                  allow="geolocation; microphone; camera; fullscreen"
-                  src="https://form.jotform.com/241893625501457"
-                  frameborder="0"
-                  style="min-width:100%;max-width:100%;height:539px;border:none;"
-                  scrolling="no"
-                >
-                </iframe>
+                <script src="https://cdn.jotfor.ms/s/umd/latest/for-cardform-feedback-embed.js"></script>
+                <script>
+                  var componentID = new JF_FeedbackEmbedButton({
+                    
+                buttonIcon: "default",
+                buttonFontColor: "#FFFFFF",
+                buttonBackgroundColor: "#007FEF",
+                formId: 241893625501457
+                ,
+                    buttonText: "Apply Now",
+                    buttonSide: "Bottom",
+                    buttonAlign: "Right",
+                    base: "https://form.jotform.com/",
+                  }).componentID;
+                </script>
                 <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
-                <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-241893625501457']", "https://form.jotform.com/")</script>
+                <script>window.jotformEmbedHandler("iframe[id='" + componentID + "_iframe']", "https://form.jotform.com/")</script>
                 
                 
             </div>
